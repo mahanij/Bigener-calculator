@@ -1,12 +1,37 @@
 
-let firstName = "mohammad"
+let firstNumber = Number(prompt("input first number"))
 
-let lastName = "zangane"
+let operator = prompt("what do you want to do")
 
-const age = 14
+let secondNumber = Number(prompt("input second number"))
 
-var licences = 0
+let operator2 = prompt("what do you want to do")
 
-let cards = 0
+let thirdNumber = Number(prompt("input third number"))
 
-const nationalitiCode = "I can not say it"
+let result = Number()
+
+if(operator == '+')
+{
+    alert(firstNumber + secondNumber)
+}
+
+else if(operator == '-')
+{
+    alert( firstNumber - secondNumber )
+}
+
+else if(operator == '/')
+{
+    alert( firstNumber / secondNumber )
+}
+
+else if(operator == '*')
+{
+    alert( firstNumber * secondNumber )
+}
+
+if(operator2 == '+')
+{
+    alert( )
+}
