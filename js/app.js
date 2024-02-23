@@ -42,17 +42,19 @@ if (trueFalse == true) {
   } else if ((operations == "/", operations2 == "*")) {
     alert((firstNumber / secondNumber) * thirdNumber);
   } else {
-    alert('please input on of the operations');
+    alert("please input on of the operations");
   }
 }
-if ((operations == "+", trueFalse == false)) {
+if (trueFalse == false , operations == "+") {
   alert(firstNumber + secondNumber);
-} else if ((operations == "-", trueFalse == false)) {
+} else if (trueFalse == false , operations == "-") {
   alert(firstNumber - secondNumber);
-} else if ((operations == "/", trueFalse == false)) {
+} else if (trueFalse == false ,operations == "/") {
   alert(firstNumber / secondNumber);
-} else if ((operations == "*", trueFalse == false)) {
-  alert(firstNumber * secondNumber);
-} else if (trueFalse == false) {
-  alert("please input one of the operationss");
+} else if (trueFalse == false ,operations == "*") {
+  alert(trueFalse == false ,firstNumber * secondNumber);
+} else if (trueFalse == false , operations == "**") {
+  alert(firstNumber ** secondNumber);
+} else if(trueFalse == false){
+  alert("please input operations")
 }
