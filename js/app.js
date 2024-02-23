@@ -1,37 +1,30 @@
+let firstNumber = Number(prompt("input first number"));
 
-let firstNumber = Number(prompt("input first number"))
+let operations = prompt("what do you want to do");
 
-let operator = prompt("what do you want to do")
+let secondNumber = Number(prompt("input second number"));
 
-let secondNumber = Number(prompt("input second number"))
+let trueFalse = confirm("do you want to continue");
 
-let operator2 = prompt("what do you want to do")
 
-let thirdNumber = Number(prompt("input third number"))
 
-let result = Number()
 
-if(operator == '+')
-{
-    alert(firstNumber + secondNumber)
+
+if (trueFalse == true) {
+  let operations2 = prompt("what do you want to do");
+  let thirdNumber = Number(prompt("input third number"));
+  if ((operations == "+", operations2 == "+")) {
+    alert(firstNumber + secondNumber + thirdNumber);
+  }
 }
-
-else if(operator == '-')
-{
-    alert( firstNumber - secondNumber )
-}
-
-else if(operator == '/')
-{
-    alert( firstNumber / secondNumber )
-}
-
-else if(operator == '*')
-{
-    alert( firstNumber * secondNumber )
-}
-
-if(operator2 == '+')
-{
-    alert( )
+if ((operations == "+", trueFalse == false)) {
+  alert(firstNumber + secondNumber);
+} else if (operations == "-") {
+  alert(firstNumber - secondNumber);
+} else if (operations == "/") {
+  alert(firstNumber / secondNumber);
+} else if (operations == "*") {
+  alert(firstNumber * secondNumber);
+} else {
+  alert("please input one of  the operations");
 }
